@@ -1,0 +1,9 @@
+server.port=8888
+spring.application.name: config-server
+
+spring.profiles:cloud,dev
+spring.cloud.config.server.git.uri: https://github.com/pooja-varma/springcloudproperties
+
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+eureka.client.healthcheck.enabled: true
+eureka.client.lease.duration: 5

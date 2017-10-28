@@ -1,0 +1,7 @@
+server.port=7999
+spring.application.name=ConfigClient
+
+
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+eureka.client.healthcheck.enabled: true
+eureka.client.lease.duration: 5

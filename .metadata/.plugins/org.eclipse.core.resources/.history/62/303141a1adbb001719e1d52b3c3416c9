@@ -1,0 +1,5 @@
+package com.exercies.config;
+
+public class ConfigApplication {
+
+}
